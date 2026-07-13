@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tatjana's Proems</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Stack+Sans+Headline:wght@200..700&family=Space+Grotesk:wght@400..600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="basic-variables.css">
+<link rel="stylesheet" href="variables.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="canvas">
+
+    <nav class="navbar" id="navbar">
+      <a href="#" class="wordmark">Through The Lenses.</a>
+      <ul class="nav-links">
+        <li><a href="#forewords">Forewords</a></li>
+        <li><a href="#archive">Archive</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <span class="label frame-tag">Notice &amp; Guidance</span>
+      <span class="label portrait-note">Unedited Storyline - Tatjana's Guidance</span>
+
+      <div class="name-panel">
+        <div class="name-inner">
+          <span class="label eyebrow">French-Algerian Model.</span>
+          <div class="name-wrap">
+            <h1 class="muse-name">Tatjana</h1>
+            <div class="reg-line" id="regLine"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="forewords" class="forewords">
+      <div class="section-head">
+        <h2 class="section-title">Foreword</h2>
+        <span class="label">Read before entering</span>
+      </div>
+      <div class="forewords-body">
+        <div class="forewords-copy">
+          <p>This proems exists for literary purposes solemnly to enhance awareness and cautious observation regarding this matter. What you'll find past this page is Tatjana's world as Dolores Bahia Roubille while it's being built session by session — contemplations, and the notes that sit between them.</p>
+          <p>A literary work suspended between existence and invention, reflecting an arbitrary, gaudy life shaped by social expectation and poured into phrases — a sheath for a soul to reside in, or simply to exist within. Frames are numbered in the order they were taken, and Sessions holds the unedited context around them. Nothing here is presented as belonging solely to its author.</p>
+        </div>
+        <ul class="forewords-rules">
+          <li><span>01</span>This is a literary narrative space not a real model's portfolio nor affiliated with any real-world entity.</li>
+          <li><span>02</span>Frame numbers and session notes are part of the story, it may not consist of a complete model's journey.</li>
+          <li><span>03</span>Any interactions which might commenced outside the published narrative domain are considered outside of character (OOC).)</li>
+          <li><span>04</span>Continuity carries forward — later entries assume you've read earlier ones.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="archive">
+      <div class="section-head">
+        <h2 class="section-title">Archive</h2>
+        <span class="label">Photoshoots Log</span>
+      </div>
+      <div class="archive-grid" id="archiveGrid">
+        <div class="archive-item" data-index="0"><img src="images/women-paris-media-archive/women-paris-media-archive.png" alt="2019 Women Paris Media"><span>2019 Women Paris Media Archive</span></div>
+        <div class="archive-item" data-index="1"><span>Unknown</span></div>
+        <div class="archive-item" data-index="2"><span>Unknown</span></div>
+        <div class="archive-item" data-index="3"><span>Unknown</span></div>
+        <div class="archive-item" data-index="4"><span>Unknown</span></div>
+        <div class="archive-item" data-index="5"><span>Unknown</span></div>
+        <div class="archive-item" data-index="6"><span>Unknown</span></div>
+        <div class="archive-item" data-index="7"><span>Unknown</span></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <p class="contact-copy"> Representation inquiries for Tatjana are handled directly.</p>
+        <div class="contact-meta">
+          <a href="mailto:xtatjanareid@gmail.com">xtatjanareid@gmail.com</a>
+          <a href="https://telegram.me/Ioserlesbian">@Ioserlesbian on Telegram</a>
+          <a href="#">Paris, France</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <span>Tatjana Reid © 2026</span>
+      <span> as Dolores Bahia Roubille</span>
+    </footer>
+
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">Close ✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous session">‹</button>
+    <div class="lightbox-frame">
+      <div class="lightbox-stage">
+        <img class="lightbox-img" id="lightboxImg" src="images/women-paris-media-archive/women-paris-media-archive.png" alt="">
+      </div>
+      <div class="lightbox-thumbs" id="lightboxThumbs"></div>
+      <div class="lightbox-meta">
+        <span class="label lightbox-caption" id="lightboxCaption">2019 — Women Paris Media</span>
+        <button class="lightbox-narrative-toggle" id="lightboxNarrativeToggle" aria-expanded="false">Show narrative story</button>
+      </div>
+      <p class="lightbox-narrative" id="lightboxNarrative"></p>
+    </div>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next session">›</button>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
